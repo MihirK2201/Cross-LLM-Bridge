@@ -1,0 +1,16 @@
+# Allowlist: only the two tools below are part of this repo. Everything else in
+# this folder (pentagi/, SkillSpector/, claude-bridge/, ...) is not published.
+/*
+!/.gitignore
+!/README.md
+!/claude-codex/
+!/codex-claude/
+
+# Built binaries and local state, even inside the allowed folders
+/claude-codex/claude-codex
+/codex-claude/codex-claude
+*.log
+.env
+.env.*
+.bridge-token
+node_modules/
